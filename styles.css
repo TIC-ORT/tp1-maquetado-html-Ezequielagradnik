@@ -9,6 +9,15 @@ body {
   background-color: #4a4e58;
   color: white;
 }
+main
+  {
+    .main {
+      flex: 1; /* Para que ocupe todo el espacio disponible */
+      display: flex;
+      padding: 20px;
+    }
+    
+  }
 
 .top-bar {
   background-color: #3c3f46;
@@ -228,6 +237,7 @@ body {
   background-color: #3c3f46;
   padding: 40px 60px 20px;
   color: #aaa;
+  margin-top: auto;
 }
 
 .footer-content {
