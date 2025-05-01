@@ -11,16 +11,15 @@ body {
 min-height: 100vh; /* para pegar el footer */
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 main
   {
-    .main {
       flex: 1; /* Para que ocupe todo el espacio disponible */
       display: flex;
       padding: 20px;
     }
     
-  }
 
 .top-bar {
   background-color: #3c3f46;
@@ -236,11 +235,21 @@ body {
   margin: 4px 0;
 }
 
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
 .footer {
   background-color: #3c3f46;
-  padding: 40px 60px 20px;
+  padding: 40px 60px;
   color: #aaa;
   margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer-content {
@@ -271,6 +280,7 @@ body {
 
 .footer-line.short {
   width: 60%;
+
 }
 
 .footer-bottom {
@@ -282,5 +292,6 @@ body {
 .footer-link {
   width: 60px;
   height: 6px;
-  background-color: #8d8d8d;
+  background-color: #757575;
+  margin-left: 20px;
 }
