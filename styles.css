@@ -125,7 +125,7 @@ main
 
 .video-player {
   width: 50%;
-  height: 330px;
+  height: 280px;
   background-color: #f89372;
   display: flex;
   align-items: center;
@@ -241,9 +241,11 @@ body {
 }
 
 .thumb-minitext div {
-  height: 4px;
+  height: 6px;
   background-color: #d4d4d4;
   margin: 2px 0;
+  width: 60%; 
+  align-self: flex-start; 
 }
 
 .body {
@@ -268,6 +270,7 @@ body {
 }
 
 .footer-content {
+  margin-left: 30px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
